@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>블로그 | 상암 코인노래방 할인 찐 후기</title>
+    <meta name="description" content="상암 코인노래방 할인 진짜 개꿀이다. 500원에 한곡, 주말에도 할인됨. 브로들만 아는 성지, 내가 직접 가보고 쓴 찐 후기. 전화 010-6279-0862">
+    <meta name="keywords" content="상암 코인노래방, 상암 코인노래방 할인, 블로그, 후기, 상암 노래방, 500원 노래방, 가성비, 브로">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t3b04-sa-coin-sale-2.vercel.app/blog/">
+    <meta property="og:title" content="블로그 | 상암 코인노래방 할인 찐 후기">
+    <meta property="og:description" content="500원 한곡, 주말에도 할인. 브로들 다 모이는 곳. 직접 써본 후기">
+    <meta property="og:url" content="https://t3b04-sa-coin-sale-2.vercel.app/blog/">
+    <meta property="og:type" content="article">
+    <style>
+        /* RESET */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
+            background: #e0dcd5;
+            color: #1a1a1a;
+            line-height: 1.5;
+            padding: 0 1rem;
+        }
+        /* BRUTALIST DNA */
+        h1, h2, h3, h4, h5 {
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            border-left: 6px solid #c0392b;
+            padding-left: 0.75rem;
+            margin: 2rem 0 1rem;
+        }
+        h1 { font-size: 2.4rem; }
+        h2 { font-size: 1.8rem; }
+        h3 { font-size: 1.4rem; }
+        p, li, .text {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            word-break: break-word;
+        }
+        a {
+            color: #c0392b;
+            text-decoration: underline wavy;
+            font-weight: 700;
+        }
+        a:hover {
+            background: #1a1a1a;
+            color: #e0dcd5;
+            text-decoration: none;
+        }
+        .btn {
+            display: inline-block;
+            background: #1a1a1a;
+            color: #e0dcd5;
+            padding: 0.5rem 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 4px solid #1a1a1a;
+            text-decoration: none;
+            transition: 0.1s;
+            margin: 0.5rem 0;
+        }
+        .btn:hover {
+            background: #c0392b;
+            border-color: #c0392b;
+            color: #fff;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            padding: 2rem 0;
+            border-bottom: 3px dashed #1a1a1a;
+        }
+        .grid-2, .grid-3 {
+            display: grid;
+            gap: 1.5rem;
+        }
+        .grid-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-3 { grid-template-columns: repeat(3, 1fr); }
+        @media (max-width: 768px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+        }
+
+        /* 네비게이션 (nav-present) */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1a1a1a;
+            color: #e0dcd5;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            border: 4px solid #c0392b;
+            flex-wrap: wrap;
+        }
+        nav .logo {
+            font-size: 1.6rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #e0dcd5;
+            text-decoration: none;
+            border: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        nav ul li a {
+            color: #e0dcd5;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 0.25rem 0.5rem;
+            border: 2px solid transparent;
+        }
+        nav ul li a:hover {
+            border-color: #c0392b;
+            background: #c0392b;
+            color: #fff;
+        }
+        /* 햄버거 메뉴 (hamburger-menu) */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0.25rem;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 4px;
+            background: #e0dcd5;
+            margin: 4px 0;
+        }
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+            nav ul {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                margin-top: 1rem;
+                border-top: 2px solid #c0392b;
+                padding-top: 1rem;
+            }
+            nav ul.open { display: flex; }
+            nav ul li { text-align: center; }
+        }
+        /* tel-link 스타일 */
+        .tel-link {
+            font-size: 1.5rem;
+            font-weight: 900;
+            background: #c0392b;
+            color: #fff;
+            padding: 0.5rem 1.5rem;
+            display: inline-block;
+            border: 4px solid #1a1a1a;
+            text-decoration: none;
+            margin: 0.5rem 0;
+        }
+        .tel-link:hover {
+            background: #1a1a1a;
+            color: #c0392b;
+            border-color: #c0392b;
+        }
+
+        /* 블로그 전용 스타일 (기존 디자인 확장) */
+        .blog-post {
+            background: #f4f1ea;
+            padding: 2rem;
+            border: 4px solid #1a1a1a;
+            margin: 2rem 0;
+        }
+        .blog-post .meta {
+            font-size: 0.9rem;
+            color: #555;
+            border-bottom: 2px dashed #1a1a1a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .blog-post .highlight-box {
+            background: #1a1a1a;
+            color: #e0dcd5;
+            padding: 1rem;
+            border-left: 8px solid #c0392b;
+            margin: 1.5rem 0;
+        }
+        .blog-post ul {
+            list-style: square;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .blog-post ul li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 네비게이션 (이전 페이지와 동일) -->
+        <nav>
+            <a href="/" class="logo">BRO🎤노래방</a>
+            <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="nav-menu">
+                <li><a href="/">홈</a></li>
+                <li><a href="/price.html">할인/요금</a></li>
+                <li><a href="/location.html">위치</a></li>
+                <li><a href="/blog.html">블로그</a></li>
+                <li><a href="tel:010-6279-0862" class="tel-link">📞 전화</a></li>
+            </ul>
+        </nav>
+
+        <!-- 블로그 콘텐츠 -->
+        <section>
+            <h1>📢 상암 코인노래방 할인 찐 후기</h1>
+            <div class="blog-post">
+                <div class="meta">
+                    <span>✍️ 브로(bro)의 생생 후기</span> · 
+                    <span>📅 2025년 3월 15일</span> · 
+                    <span>🔥 조회 2,847</span>
+                </div>
+
+                <p>야, 브로들. 요즘 노래방 가격 장난 아니다. 일반 노래방은 30분에 1만 원? 주말이면 2만 원도 우습지. 근데 <strong>상암 코인노래방 할인</strong>은 <span style="background:#c0392b;color:#fff;padding:0.1rem 0.3rem;">500원에 한곡</span> 실화냐? 주말에도 할인 적용되고 심지어 24시라서 새벽에 가도 개꿀이다.</p>
+
+                <p>내가 지난주 토요일 밤 11시쯤 친구랑 둘이 갔는데, 5천원 넣고 10곡 불렀다. 계산해봐라. 곡당 500원. ㄹㅇ 찐이다. 게다가 기계 상태도 좋고 마이크도 새 거더라. 여기는 <strong>상암동 주민센터 근처</strong>라서 찾기도 쉽다. 전화번호는 <a href="tel:010-6279-0862">010-6279-0862</a>.</p>
+
+                <div class="highlight-box">
+                    💥 <strong>꿀팁</strong> : 평일 오후 2시~5시 사이에 가면 사람 없어서 내가 왕이다. 곡 추가도 바로바로 됨. 
+                </div>
+
+                <h2>💰 가격표 간단 정리</h2>
+                <ul>
+                    <li>기본 1곡 : <strong>500원</strong> (24시간 동일)</li>
+                    <li>10곡 : 5,000원 (주말/공휴일 포함)</li>
+                    <li>30분 자유이용 : 3,000원 (할인 적용됨)</li>
+                    <li>음료수는 1,000원 (콜라, 사이다, 커피)</li>
+                </ul>
+                <p>다른 코인노래방은 보통 1곡에 1,000원인데 여기는 반값이다. 브로들이 안 가면 손해다.</p>
+
+                <h3>🎤 시설 후기</h3>
+                <p>방음도 괜찮고, 에어컨 빵빵하다. 노래방 기계는 TJ미디어 최신 모델. 키 조절, 이펙트 다 됨. 단점은 방이 좀 좁다? 근데 둘이 가면 딱 좋고, 4명이면 좀 붐빈다. 그래도 가격 생각하면 용서된다.</p>
+
+                <p>참, 브로들. <span style="background:#1a1a1a;color:#e0dcd5;padding:0.2rem 0.4rem;">전화 예약</span>도 가능하다고 한다. 번호는 다시 한번 <a href="tel:010-6279-0862">010-6279-0862</a>. 주말에는 인기 많으니까 미리 전화하고 가는 게 좋다. 나도 다음주에 또 갈 예정. 브로들은 꼭 가보셈. 500원에 한곡, 이게 찐 행복이다.</p>
+
+                <p style="margin-top:2rem;font-size:0.9rem;color:#777;">#상암코인노래방 #상암코인노래방할인 #500원노래방 #브로노래방 #상암주민센터</p>
+            </div>
+        </section>
+
+        <!-- 추가 정보: FAQ 느낌의 카드 (기존 디자인 유지) -->
+        <section style="border-bottom:none;">
+            <h2>❓ 브로들이 자주 묻는 질문</h2>
+            <div class="grid-2">
+                <div style="background:#f4f1ea;padding:1.5rem;border:4px solid #1a1a1a;">
+                    <h3>💬 주말에 할인 돼?</h3>
+                    <p>응! 주말에도 1곡 500원 그대로다. 토요일 밤에도 적용됨. 찐이야.</p>
+                </div>
+                <div style="background:#f4f1ea;padding:1.5rem;border:4px solid #1a1a1a;">
+                    <h3>📍 위치 어디?</h3>
+                    <p>상암동 주민센터에서 걸어서 2분 거리. 골목 안쪽이라 찾기 쉬움. 네이버 지도 검색하면 바로 나옴.</p>
+                </div>
+                <div style="background:#f4f1ea;padding:1.5rem;border:4px solid #1a1a1a;">
+                    <h3>🕐 몇 시까지?</h3>
+                    <p>24시 운영. 새벽 3시에도 노래 부르는 브로들 봤음. 단, 청소시간 있으니 전화 확인.</p>
+                </div>
+                <div style="background:#f4f1ea;padding:1.5rem;border:4px solid #1a1a1a;">
+                    <h3>📞 전화번호?</h3>
+                    <p><a href="tel:010-6279-0862">010-6279-0862</a> 여기로 전화해. 사장님 목소리 푸근하심.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 하단 푸터 (기존 스타일) -->
+        <footer style="margin-top:3rem;padding:1.5rem 0;border-top:4px solid #1a1a1a;text-align:center;">
+            <p>📍 상암동 주민센터 근처 · 📞 <a href="tel:010-6279-0862" style="border-bottom:2px solid;">010-6279-0862</a></p>
+            <p style="font-size:0.8rem;color:#555;">운영시간 24시 · 주말할인 적용 · 500원 한곡 찐할인</p>
+            <p style="font-size:0.75rem;color:#777;">&copy; 2025 BRO 노래방. All wrongs reserved. (브로들 전용)</
+</body>
+</html>
